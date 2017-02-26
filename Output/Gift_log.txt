@@ -1,0 +1,16 @@
+k-happiest couples    Value of k = 2
+Girl-1 Boy-7
+0 975 150 
+1 485 36 11 1
+Girl-5 Boy-4
+0 355 67 
+1 294 49 13 2
+2 415 72 39 1
+k-most compatible couples    Value of k = 2
+Girl-1 Boy-7
+0 975 150 
+1 485 36 11 1
+Girl-5 Boy-4
+0 355 67 
+1 294 49 13 2
+2 415 72 39 1
