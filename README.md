@@ -6,10 +6,12 @@ This is the PPL Assignment, by Prof. Rahul Kala.<br>
 This repository contains the questions 1 - 10 of the assignment, along with the <i>randomly</i> generated data for input.<br>
 ###Programming done in JAVA
 
-###Operating System Used
-Ubuntu Gnome 16.04.2 LTS
-###Version of JAVA used
+####Operating System Used
+Zorin OS 12 Core
+####Version of JAVA used
 JAVA 8 (jdk 1.8 Update 92) 64 bit
+####Developer Tools used
+Sublime Text, javadoc, BlueJ
 
 ###Procedure (using command line)
 1. change directory to the directory containing the JAVA source files. Keep all the files in the same directory.
