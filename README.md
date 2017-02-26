@@ -12,7 +12,7 @@ Ubuntu Gnome 16.04.2 LTS
 JAVA 8 (jdk 1.8 Update 92) 64 bit
 
 ###Procedure (using command line)
-1. change directory to the directory containing the JAVA source files.
+1. change directory to the directory containing the JAVA source files. Keep all the files in the same directory.
 2. type in --<pre>javac *.java</pre>
 3. for Question 1, type in --<pre>java q1_assign</pre>
 4. for Question 2, type in --<pre>java q2_assign</pre>
