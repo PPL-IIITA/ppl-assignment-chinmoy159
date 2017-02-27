@@ -7,11 +7,11 @@ This repository contains the questions 1 - 10 of the assignment, along with the 
 ###Programming done in JAVA
 
 ####Operating System Used
-Zorin OS 12 Core
+Windows 10 Pro (x64)
 ####Version of JAVA used
 JAVA 8 (jdk 1.8 Update 92) 64 bit
 ####Developer Tools used
-Sublime Text, javadoc, BlueJ
+Notepad++, javadoc, BlueJ
 
 ###Procedure (using command line)
 1. change directory to the directory containing the JAVA source files. Keep all the files in the same directory.
