@@ -32,10 +32,11 @@ Output of<ol style = "list-style-type:circle">
 <li><i>Question 10</i> is stored in <i>Q10_Random_Ans.txt</i></li></ol>
 <hr />
 <h4>Edits (after first submission)</h4>
-1. Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal
-2. Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.
-3. Question 10, which demands the creation of a data structure, has been added to the repository.
-4. Also, added all the auxilary classes needed for my programs.
+<ol style = "list-style-type:circle">
+<li>Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal</li>
+<li>Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.</li>
+<li>Question 10, which demands the creation of a data structure, has been added to the repository.</li>
+<li>Also, added all the auxilary classes needed for my programs.</li>
 
 <h4>Output</h4>
 Pre-generated output files are present in the folder <i>Output</i>
