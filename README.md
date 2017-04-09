@@ -23,3 +23,14 @@ Notepad++, javadoc, BlueJ
 I've used <i>simple text files</i> to read the input from, as well as storing the output to.<br>
 Output of <i>Question 1</i> is stored in <pre>Couples.txt</pre><br>
 Output of <i>Question 2</i> is stored in <pre>Gift_log.txt</pre>
+
+
+##Edits (after first submission)
+1. Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal
+2. Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.
+3. Question 10, which demands the creation of a data structure, has been added to the repository.
+
+##Output
+Pre-generated output files are present in the folder <i>Output</i>
+###Input
+Randomly generated input files are given in folder <i>Input</i> as text files.
