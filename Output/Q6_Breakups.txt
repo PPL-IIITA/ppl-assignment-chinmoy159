@@ -1,0 +1,20 @@
+Day -- 1
+Girl-46 Boy-46
+Girl-45 Boy-42
+
+Day -- 2
+Girl-51 Boy-47
+Girl-23 Boy-28
+
+Day -- 3
+Girl-35 Boy-62
+Girl-60 Boy-31
+
+Day -- 4
+Girl-44 Boy-33
+Girl-21 Boy-12
+
+Day -- 5
+Girl-46 Boy-46
+Girl-28 Boy-43
+
