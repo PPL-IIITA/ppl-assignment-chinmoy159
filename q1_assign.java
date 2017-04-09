@@ -9,6 +9,11 @@ import java.util.*;
 
 public class q1_assign
 {
+    /**
+    * Reading the list of boys and girls.
+    * As per the requirements,
+    * form the couples.
+    */
     public static void main (String[] args) throws Exception
     {
         /**
