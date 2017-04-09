@@ -37,7 +37,7 @@ Output of<ol style = "list-style-type:circle">
 <li>Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.</li>
 <li>Question 10, which demands the creation of a data structure, has been added to the repository.</li>
 <li>Also, added all the auxilary classes needed for my programs.</li>
-
+</ol>
 <h4>Output</h4>
 Pre-generated output files are present in the folder <i>Output</i>
 <h4>Input</h4>
