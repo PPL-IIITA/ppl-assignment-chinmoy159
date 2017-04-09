@@ -14,20 +14,22 @@ JAVA 8 (jdk 1.8 Update 92) 64 bit
 Notepad++, javadoc, BlueJ
 
 <h4>Procedure (using command line)</h4>
-1. Keep all the Java source files in the same directory.
-2. run the command<pre>javac *.java</pre> to compile all the files.
-3. run the command <pre>java q$_assign</pre>where, $ = question number.
-4. all the inputs and output files are given in the folder <i>Input</i> & <i>Output</i> respectively.
+<ol style = "list-style-type:circle">
+<li>Keep all the Java source files in the same directory.</li>
+<li>run the command<pre>javac *.java</pre> to compile all the files.</li>
+<li>run the command <pre>java q$_assign</pre>where, $ = question number.</li>
+<li>all the inputs and output files are given in the folder <i>Input</i> & <i>Output</i> respectively.</li>
+</ol>
 
 I've used <i>simple text files</i> to read the input from, as well as storing the output to.<br>
-Output of<br>
-1. <i>Question 1</i> is stored in <i>Couples.txt</i>
-2. <i>Question 2</i> is stored in <i>Gift_log.txt</i>
-3. <i>Question 4</i> is stored in <i>Broken_up.txt</i> and <i>New_couples.txt</i>
-4. <i>Question 5</i> is stored in <i>Couples_Q5.txt</i>
-5. <i>Question 6</i> is stored in <i>Q6_Breakups.txt</i>
-6. <i>Question 7</i> is stored in <i>Q7_analysis.txt</i>
-7. <i>Question 10</i> is stored in <i>Q10_Random_Ans.txt</i>
+Output of<ol style = "list-style-type:circle">
+<li><i>Question 1</i> is stored in <i>Couples.txt</i></li>
+<li><i>Question 2</i> is stored in <i>Gift_log.txt</i></li>
+<li><i>Question 4</i> is stored in <i>Broken_up.txt</i> and <i>New_couples.txt</i></li>
+<li><i>Question 5</i> is stored in <i>Couples_Q5.txt</i></li>
+<li><i>Question 6</i> is stored in <i>Q6_Breakups.txt</i></li>
+<li><i>Question 7</i> is stored in <i>Q7_analysis.txt</i></li>
+<li><i>Question 10</i> is stored in <i>Q10_Random_Ans.txt</i></li></ol>
 <hr />
 <h4>Edits (after first submission)</h4>
 1. Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal
