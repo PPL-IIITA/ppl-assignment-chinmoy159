@@ -1,16 +1,16 @@
-###ppl-assignment-chinmoy159
-#IPPL430C Assignment
-##by --<br>Chinmoy Das<br>IIT2015028
+<h3>ppl-assignment-chinmoy159</h3>
+<h4>IPPL430C Assignment</h4>
+<h5>by --<br>Chinmoy Das<br>IIT2015028</h5>
 
 This is the PPL Assignment, by Prof. Rahul Kala.<br>
 This repository contains the questions 1 - 10 of the assignment, along with the <i>randomly</i> generated data for input.<br>
-###Programming done in JAVA
+<h5>Programming done in JAVA</h5>
 
-####Operating System Used
+<h4>Operating System Used</h4>
 Windows 10 Pro (x64)
-####Version of JAVA used
+<h4>Version of JAVA used</h4>
 JAVA 8 (jdk 1.8 Update 92) 64 bit
-####Developer Tools used
+<h4>Developer Tools used</h4>
 Notepad++, javadoc, BlueJ
 
 ###Procedure (using command line)
