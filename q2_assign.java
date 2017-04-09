@@ -1,4 +1,3 @@
-package PPL_Assignment;
 /**
  * IPPL430C Assignment
  * Prof. Rahul Kala
