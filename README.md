@@ -13,6 +13,10 @@ This repository contains the questions 1 - 10 of the assignment, along with the 
 <h4>Developer Tools used</h4>
 <pre>Notepad++, javadoc, BlueJ</pre>
 
+<h4>Documentation</h4>
+All the documentation files are present in the folder <i>doc</i>.<br>
+Open the file <pre>package-summary.html</pre>This is the index file of the documentation of all the files in the assignment.
+
 <h4>Procedure (using command line)</h4>
 <ol style = "list-style-type:circle">
 <li>Keep all the Java source files <i> as well as </i> the input files in the same directory.</li>
