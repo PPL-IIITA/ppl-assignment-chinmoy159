@@ -1,8 +1,10 @@
+package PPL_Assignment;
 /**
  * IPPL430C Assignment
  * Prof. Rahul Kala
  * @author Chinmoy Das, IIT2015028
  * @version February 17, 2017
+ * Last updated -- April 3, 2017
  */
 import java.io.*;
 import java.util.*;
@@ -20,11 +22,15 @@ public class q2_assign
         String St;
         couples_data[] obj = new couples_data[10000];
         
-	/**
-	* Reading the List of paired couples, and the gifts given.
-	*/
-        Sc = new Scanner (new File ("Couples.txt"));
-        Gift = new Scanner (new File ("Gifts.txt"));
+        FileWriter Fw0 = new FileWriter ("PPL_Assignment/Couples_data.txt", true);
+        BufferedWriter Bw0 = new BufferedWriter (Fw0);
+        PrintWriter Pw0 = new PrintWriter (Bw0);
+        
+        /**
+         * Reading the List of paired couples, and the gifts given.
+         */
+        Sc = new Scanner (new File ("PPL_Assignment/Couples.txt"));
+        Gift = new Scanner (new File ("PPL_Assignment/Gifts.txt"));
         for (c = 0; Sc.hasNext(); ++c) {
             obj[c] = new couples_data();
             St = Sc.next();
@@ -78,18 +84,23 @@ public class q2_assign
             
             obj[c].set_happ (x);
             obj[c].set_compat (Math.abs (obj[c].boy.get_budget() - obj[c].girl.get_budget()) + Math.abs(obj[c].boy.get_att() + obj[c].boy.get_att()) + Math.abs(obj[c].boy.get_intel() + obj[c].boy.get_intel()));
+            
+            Pw0.println (obj[c].girl.get_name () + " " + obj[c].boy.get_name () + " " + obj[c].get_happ () + " " +obj[c].get_compat());
         }
         Sc.close();
         Gift.close();
+        Pw0.close();
+        Bw0.close();
+        Fw0.close();
         
-        Sc = new Scanner (System.in);
-	/**
-	* Opening a file for Writing
-	*/
-        FileWriter Fw = new FileWriter ("Gift_log.txt", true);
+        //Sc = new Scanner (System.in);
+        /**
+         * Opening a file for Writing
+         */
+        FileWriter Fw = new FileWriter ("PPL_Assignment/Gift_log.txt");
         BufferedWriter Bw = new BufferedWriter (Fw);
         PrintWriter Pw = new PrintWriter (Bw);
-        k = Sc.nextInt(); /**Scanning the value of k*/
+        k = 10; /**Scanning the value of k*/
         for (i = 0; i < c; ++i) {
             for (j = 0; j < c - i - 1; ++j) {
                 if (obj[j].get_happ() < obj[j + 1].get_happ()) {
@@ -121,7 +132,7 @@ public class q2_assign
                     obj[j + 1] = new couples_data (temp);
                 }
             }
-        }/**Bubble sorting*/
+        }/**Bubble Sorting*/
         Pw.println("k-most compatible couples    Value of k = " + k);
         for (i = 0; i < k; ++i) {
             Pw.println(obj[i].girl.get_name() + " " + obj[i].boy.get_name());
@@ -136,10 +147,9 @@ public class q2_assign
                 Pw.println();
             }
         }
-	
-	/**
-	* Closing all the opened streams
-	*/
+        /**
+         * Closing all the opened streams
+         */
         Pw.close();
         Bw.close();
         Fw.close();
