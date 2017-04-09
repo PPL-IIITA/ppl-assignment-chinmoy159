@@ -16,9 +16,8 @@ This repository contains the questions 1 - 10 of the assignment, along with the 
 <h4>Documentation</h4>
 All the documentation files are present in the folder <i>doc</i>.<br>
 Open the file <pre>package-summary.html</pre>This is the index file of the documentation of all the files in the assignment.
-<br>
-<i>I'm providing a simple shell script file to ease the task of compilation and generation of random code.<br><pre>tested on Zorin OS 12 Core (Ubuntu Based) (x64)</pre><br>Use the command<pre>sh compiler_java.sh</pre> on the terminal.<br>After this you just need to change the directory using <pre>cd bytecodes/</pre>and type<pre>java q$_assign</pre> to execute whichever question you want to.<br>
-
+<hr />
+<i>I'm providing a simple shell script file to ease the task of compilation and generation of random code.<br><pre>tested on Zorin OS 12 Core (Ubuntu Based) (x64)</pre>Use the command<pre>sh compiler_java.sh</pre> on the terminal.<br>After this you just need to change the directory using <pre>cd bytecodes/</pre>and type<pre>java q$_assign</pre> to execute whichever question you want to.<hr />
 <h4>Procedure (using command line on Linux Terminal), in case you do not wish to use the shell script !</h4>
 <ol style = "list-style-type:circle">
 <li>Keep all the Java source files <i> as well as </i> the input files in the same directory.</li>
