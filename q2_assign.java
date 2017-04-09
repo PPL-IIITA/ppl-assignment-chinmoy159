@@ -21,15 +21,15 @@ public class q2_assign
         String St;
         couples_data[] obj = new couples_data[10000];
         
-        FileWriter Fw0 = new FileWriter ("PPL_Assignment/Couples_data.txt", true);
+        FileWriter Fw0 = new FileWriter ("Couples_data.txt", true);
         BufferedWriter Bw0 = new BufferedWriter (Fw0);
         PrintWriter Pw0 = new PrintWriter (Bw0);
         
         /**
          * Reading the List of paired couples, and the gifts given.
          */
-        Sc = new Scanner (new File ("PPL_Assignment/Couples.txt"));
-        Gift = new Scanner (new File ("PPL_Assignment/Gifts.txt"));
+        Sc = new Scanner (new File ("Couples.txt"));
+        Gift = new Scanner (new File ("Gifts.txt"));
         for (c = 0; Sc.hasNext(); ++c) {
             obj[c] = new couples_data();
             St = Sc.next();
@@ -96,7 +96,7 @@ public class q2_assign
         /**
          * Opening a file for Writing
          */
-        FileWriter Fw = new FileWriter ("PPL_Assignment/Gift_log.txt");
+        FileWriter Fw = new FileWriter ("Gift_log.txt");
         BufferedWriter Bw = new BufferedWriter (Fw);
         PrintWriter Pw = new PrintWriter (Bw);
         k = 10; /**Scanning the value of k*/
