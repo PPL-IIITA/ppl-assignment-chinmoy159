@@ -13,7 +13,7 @@ JAVA 8 (jdk 1.8 Update 92) 64 bit
 <h4>Developer Tools used</h4>
 Notepad++, javadoc, BlueJ
 
-###Procedure (using command line)
+<h4>Procedure (using command line)</h4>
 1. Keep all the Java source files in the same directory.
 2. run the command<pre>javac *.java</pre> to compile all the files.
 3. run the command <pre>java q$_assign</pre>where, $ = question number.
@@ -28,15 +28,14 @@ Output of<br>
 5. <i>Question 6</i> is stored in <i>Q6_Breakups.txt</i>
 6. <i>Question 7</i> is stored in <i>Q7_analysis.txt</i>
 7. <i>Question 10</i> is stored in <i>Q10_Random_Ans.txt</i>
-
-
-##Edits (after first submission)
+<hr />
+<h4>Edits (after first submission)</h4>
 1. Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal
 2. Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.
 3. Question 10, which demands the creation of a data structure, has been added to the repository.
 4. Also, added all the auxilary classes needed for my programs.
 
-##Output
+<h4>Output</h4>
 Pre-generated output files are present in the folder <i>Output</i>
-###Input
+<h4>Input</h4>
 Randomly generated input files are given in folder <i>Input</i> as text files.
