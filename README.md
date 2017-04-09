@@ -16,9 +16,14 @@ This repository contains the questions 1 - 10 of the assignment, along with the 
 <h4>Procedure (using command line)</h4>
 <ol style = "list-style-type:circle">
 <li>Keep all the Java source files <i> as well as </i> the input files in the same directory.</li>
+<li>first of all we need to generate the random input for the programs</li>
+<li>take all the files from the <i>Input</i> folder and put them where the java programs are kept.</li>
 <li>run the command<pre>javac *.java</pre> to compile all the files.</li>
+<li>If you wish to generate random input once again, type in <pre>java rand_data_boys</pre><pre>java rand_data_girls</pre><pre>java rand_gift_data</pre></li>
+<li>now, run the program of whichever question you need to see the result.</li>
 <li>run the command <pre>java q$_assign</pre>where, $ = question number.</li>
 <li>all the inputs and output files are given in the folder <i>Input</i> & <i>Output</i> respectively.</li>
+<li>All the outputs generated will be in the same folder</li>
 </ol>
 
 I've used <i>simple text files</i> to read the input from, as well as storing the output to.<br>
