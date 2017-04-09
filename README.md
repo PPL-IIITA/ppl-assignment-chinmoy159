@@ -29,6 +29,7 @@ Output of <i>Question 2</i> is stored in <pre>Gift_log.txt</pre>
 1. Question 2 has been modified to <i>NOT</i> to take any kind of inputs from the terminal
 2. Codes for Question 4, Question 5, Question 6, Question 7 have been added to the repository.
 3. Question 10, which demands the creation of a data structure, has been added to the repository.
+4. Also, added all the auxilary classes needed for my programs.
 
 ##Output
 Pre-generated output files are present in the folder <i>Output</i>
