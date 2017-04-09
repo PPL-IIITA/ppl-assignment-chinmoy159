@@ -7,15 +7,15 @@ This repository contains the questions 1 - 10 of the assignment, along with the 
 <h5>Programming done in JAVA</h5>
 
 <h4>Operating System Used</h4>
-Windows 10 Pro (x64)
+<pre>Windows 10 Pro (x64)</pre>
 <h4>Version of JAVA used</h4>
-JAVA 8 (jdk 1.8 Update 92) 64 bit
+<pre>JAVA 8 (jdk 1.8 Update 92) 64 bit</pre>
 <h4>Developer Tools used</h4>
-Notepad++, javadoc, BlueJ
+<pre>Notepad++, javadoc, BlueJ</pre>
 
 <h4>Procedure (using command line)</h4>
 <ol style = "list-style-type:circle">
-<li>Keep all the Java source files in the same directory.</li>
+<li>Keep all the Java source files <i> as well as </i> the input files in the same directory.</li>
 <li>run the command<pre>javac *.java</pre> to compile all the files.</li>
 <li>run the command <pre>java q$_assign</pre>where, $ = question number.</li>
 <li>all the inputs and output files are given in the folder <i>Input</i> & <i>Output</i> respectively.</li>
